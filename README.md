@@ -29,14 +29,21 @@ python Minibatch_SGD.py
 To run the ResNet50_Mix_Up.py script:
 
 ```bash
-python ResNet50_Mix_Up.py script
+python ResNet50_Mix_Up.py
 ```
 
 To run the Ablation_Study.py script:
 
 ```bash
-python RAblation_Study.py script
+python RAblation_Study.py
 ```
 
+## Requirements
 
+- Python
+- PyTorch
+- GPU recommended (CPU is also supported but may result in longer execution time)
 
+## Output
+
+Upon execution, both the ResNet50_Mix_Up.py and Ablation_Study.py scripts save the trained models as output. In total, there will be three models saved. Furthermore, these scripts also generate output files that include the images along with their respective classifications, as well as evaluation metrics.
